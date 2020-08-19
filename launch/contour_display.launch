@@ -1,0 +1,4 @@
+<launch>
+    <!-- node name="line_follower" pkg="gen5" type="line_follower.py" output="screen"/-->
+    <node name="contour_display" pkg="gen5" type="contours.py" output="screen"/>
+</launch>
